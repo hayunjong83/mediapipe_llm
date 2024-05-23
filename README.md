@@ -31,9 +31,9 @@ python -m http.server 8000
     + (참고-[GPU browser compatibility](https://developer.mozilla.org/en-US/docs/Web/API/GPU#browser_compatibility))
 - 외장 그래픽 카드가 있음에도 추론 속도가 빠르지 않다면, (Windows, Chrome의 경우) 앱별 그래픽카드 설정과 브라우저의 하드웨어 가속 설정을 확인한다.
     + <img src="./ref/graphic_setting1.png" width="50%" height="50%"/>
-    + <img src="./ref/graphic_setting2.png" width="50%" height="50%"/>
+    + <img src="./ref/graphic_setting2.PNG" width="50%" height="50%"/>
 - 4bit로 양자화된 gemma-2b 모델(<code>gemma-2b-it-gpu-int4.bin</code>)의 경우, 약 1.5 GB의 GPU메모리를 사용하는 경량 실행이 가능하였다.
-    + <img src="./ref/memory_usage.png" width="50%" height="50%"/>
+    + <img src="./ref/memory_usage.PNG" width="50%" height="50%"/>
 
 ## 참고 링크
 
